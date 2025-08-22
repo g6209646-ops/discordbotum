@@ -252,4 +252,5 @@ async def unjail(ctx, member: discord.Member):
         await kanal.send(embed=embed)
 
 # --- BOTU BAŞLAT ---
-bot.run("MTQwODUxMTc0MzU0NTU3NzQ4Mg.G6yYqx.uORfmLYPUEVZyxcNF3mOhhmH7bkRp7bt2BPgf8")
+bot.run(os.getenv("TOKEN"))
+
